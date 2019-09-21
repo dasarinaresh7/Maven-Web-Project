@@ -77,6 +77,15 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+	  
+	  <!-- https://mvnrepository.com/artifact/org.apache.maven.wagon/wagon-webdav-jackrabbit -->
+<dependency>
+    <groupId>org.apache.maven.wagon</groupId>
+    <artifactId>wagon-webdav-jackrabbit</artifactId>
+    <version>1.0-beta-6</version>
+</dependency>
+
+	  
   </dependencies>
 
 	<distributionManagement>
